@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: '/vue-movice',
     lintOnSave: false,
     // 跨域代理设置
     devServer: {
