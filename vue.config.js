@@ -1,5 +1,6 @@
 module.exports = {
     lintOnSave: false,
+    // 跨域代理设置
     devServer: {
         proxy: {
             '/api': {

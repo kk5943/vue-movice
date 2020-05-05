@@ -1,4 +1,5 @@
 <template>
+  <!-- <transition name="slide"> -->
   <div class="movie-wrap">
     <van-nav-bar title="喵眼电影" :z-index="2" left-arrow @click-left="goBack" />
     <div class="detail-list">
@@ -33,6 +34,7 @@
       </div>
     </div>
   </div>
+  <!-- </transition> -->
 </template>
 
 <script>
@@ -77,6 +79,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// .slide-enter-active,
+// .slide-leave-active {
+//   transition: all 0.3s ease;
+// }
+// .slide-enter,
+// .slide-leave-to {
+//   transform: translateX(100%);
+//   opacity: 0;
+// }
 .van-nav-bar {
   background-color: #e54847;
 }

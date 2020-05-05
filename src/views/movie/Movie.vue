@@ -1,4 +1,5 @@
 <template>
+
   <div id="main">
     <van-nav-bar title="喵眼电影" fixed :z-index="2" />
     <div class="movie-tab">
@@ -16,9 +17,11 @@
     </div>
     <router-link tag="div" to="/movie/search" class="search_entry"> </router-link>
     <keep-alive>
-      <router-view />
+      <router-view/>
     </keep-alive>
   </div>
+
+
 </template>
 
 <script>
@@ -84,6 +87,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .van-nav-bar {
   background-color: #e54847;
 }
